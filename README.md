@@ -2,8 +2,8 @@
 # ex-template
 A started template for JS project
 
-<h1>Your Name(s) Here</h1>
-<p>Email: student@edu.hac.ac.il</p>
+<h1>Yael Karat</h1>
+<p>Email: yaelkara@edu.hac.ac.il</p>
 
 <h1>Execution</h1>
 <p>
