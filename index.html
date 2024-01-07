@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>תרגיל 2</title>
+    <title>Exercise 2</title>
 </head>
 <body>
-<div class="container-fluid text-center p-3 mb-2 bg-danger-subtle text-black">
+<div class="container-fluid text-center p-3 mb-3 bg-danger-subtle text-black no-xs-size d-none d-md-block">
     <h1>Yael Karat</h1>
     <h3>Resume</h3>
 </div>
 
 <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light">
         <a class="navbar-brand" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav"
@@ -51,33 +51,43 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-12 col-md-4">
-            <img src="images/me.jpg" style="width:100%" alt="me">
+        <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-12 col-xl-12 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <img src="images/me.jpg" style="width:100%" alt="me">
+                    </div>
+                    <div class="col-xxl-12 col-xl-12 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <h2>1. About Me</h2>
+                        <ul>
+                            <li>Name: Yael Karat</li>
+                            <li>Born: January 21, 2001</li>
+                            <li><a href="https://www.linkedin.com/in/yael-karat-9320742a8/">LinkedIn</a></li>
+                            <li>
+                                <a href="https://github.com/Solange-s-Courses/ex2-bootstrap-neviim-yael-karat">GitHub</a>
+                            </li>
+                        </ul>
+                        <p>
+                            My name is Yael Karat, I am 23 years old, a student at Hadassah College in the Department of
+                            Computer Science and live in Jerusalem.
+                        </p>
+                        <p>
+                            We are four brothers and I am the third.
+                            My eldest sister, Reut, 28 years old, works at a preschool in Jerusalem and is married.
+                            She and her husband live in Gush Etzion near Jerusalem.
+                            My older brother, Daniel, 26 years old, is also a student in college, in the Department of
+                            Health Systems Management, and he also works.
+                            And my younger brother, Gilad, 18 years old, a high yeshiva student in Kiryat Shmona.
+                        </p>
+                        <p> My father's name is Meir and my mother's name is Michal and they both work in different
+                            banks.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-3 col-lg-3 col-md-8">
-            <h2>1. About Me</h2>
-            <ul>
-                <li>Name: Yael Karat</li>
-                <li>Born: January 21, 2001</li>
-                <li><a href="https://www.linkedin.com/in/yael-karat-9320742a8/">LinkedIn</a></li>
-                <li><a href="https://github.com/Solange-s-Courses/ex2-bootstrap-neviim-yael-karat">GitHub</a></li>
-            </ul>
-            <p>
-                My name is Yael Karat, I am 23 years old, a student at Hadassah College in the Department of Computer
-                Science and live in Jerusalem.
-                We are four brothers and I am the third.
-                My eldest sister, Reut, 28 years old, works at a preschool in Jerusalem and is married.
-                She and her husband live in Gush Etzion near Jerusalem.
-                My older brother, Daniel, 26 years old, is also a student in college, in the Department of Health
-                Systems Management, and he also works.
-                And my younger brother, Gilad, 18 years old, a high yeshiva student in Kiryat Shmona.
-                My father's name is Meir and my mother's name is Michal and they both work in different banks.
-            </p>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-lg-5 col-md-8">
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h2>2. Skills</h2>
             <table class="table table-bordered">
                 <thead>
@@ -101,47 +111,39 @@
                 </tr>
                 </tbody>
             </table>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-5 col-md-8">
             <h2>3. Education</h2>
-            <p>Hadassah College - Department of Computer Science</p>
-            <p><a href="https://cs.hac.ac.il/">HAC Academic College</a></p>
+            <p>Graduated from 12 years of study with a full matriculation certificate.</p>
+            <p>In elementary school, I attended a Torah school for girls from Har Nof High School in Jerusalem.</p>
+            <p>In high school I studied at the Ztviya studio for girls Maale Adumim.</p>
+            <p>And currently I am a student in the third year of studies for a bachelor's degree in the department of
+                computer science at Hadassah College.</p>
+            <a href="https://cs.hac.ac.il/">HAC Academic College</a>
         </div>
-    </div>
 
-    <div class="row">
-        <div class="col-lg-5 col-md-8">
+        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h2>4. Experience</h2>
             <div class="experience-item">
                 <h6>Software Developer Intern</h6>
-                <p>Intel Company, Jerusalem<p>
-                <p>June 2022 - August 2023<p>
+                <p>
+                    Intel Company, Jerusalem
+                </p>
+                <p>
+                    June 2022 - August 2023
+                </p>
                 <ul>
                     <li>Worked on front-end development using HTML, CSS, and JavaScript.</li>
                     <li>Collaborated with the team to implement new features and improve user experience.</li>
                 </ul>
             </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-5 col-md-8">
             <h2>5. Languages</h2>
             <ol>
                 <li>Hebrew - mother tongue</li>
                 <li>English</li>
             </ol>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-5 col-md-8">
-            <h2>6. Hobbies</h2>
-            <p>
-                I like to be at home with my family and also to meet with my friends, talk with them and have fun together.
+            <h2 class="d-none d-md-block"> 6. Hobbies</h2>
+            <p class="d-none d-md-block">
+                I like to be at home with my family and also to meet with my friends, talk with them and have
+                fun together.
                 In addition, I like to travel in Israel and get to know new and beautiful places.
                 Furthermore, I really like listening to Israeli songs and Shabbat songs.
             </p>
