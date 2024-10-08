@@ -1,9 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/6NcdIqVQ)
-# ex-template
-A started template for JS project
-
-<h1>Yael Karat</h1>
-<p>Email: yaelkara@edu.hac.ac.il</p>
+## Author
+**Yael Karat** - [@Yael-Karat](https://github.com/Yael-Karat)
 
 <h1>Execution</h1>
 <p>
